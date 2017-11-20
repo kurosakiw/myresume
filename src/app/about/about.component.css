@@ -1,0 +1,123 @@
+.about {
+  width: 698px;
+}
+
+.about .lt {
+  width: 314px;
+  overflow: hidden;
+}
+
+.about .rt {
+  width: 314px;
+  overflow: hidden;
+}
+
+.skills{
+  overflow: hidden;
+}
+
+.progress-bar {
+  float: left;
+  width: 0;
+  height: 100%;
+  font-size: 12px;
+  line-height: 20px;
+  color: #fff;
+  text-align: center;
+  background-color: #337ab7;
+  -webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
+  box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
+  -webkit-transition: width .6s ease;
+  -o-transition: width .6s ease;
+  transition: width .6s ease;
+}
+.progress{
+  position: relative;
+  height: 22px;
+  background: rgba(59, 89, 152, 0.8);
+  border-radius: 0;
+  box-shadow: none;
+  margin-bottom: 20px;
+  overflow: visible;
+}
+.progress .progress-bar{
+  position: relative;
+  -webkit-animation: animate-positive 2s;
+  animation: animate-positive 2s;
+}
+.progress .progress-bar:after{
+  content: "";
+  display: inline-block;
+  width: 7px;
+  background: #fff;
+  position: absolute;
+  top: -10px;
+  bottom: -10px;
+  right: -3px;
+  z-index: 1;
+  transform: rotate(35deg);
+}
+.progress-title{
+  display: block;
+  font-size: 14px;
+  color: #ececec;
+  position: absolute;
+  top: 0px;
+  left: 13px;
+  font-weight: normal;
+}
+.progress .progress-value{
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ececec;
+  position: absolute;
+  top: 0px;
+  right: 7px;
+}
+@-webkit-keyframes animate-positive{
+  0%{ width: 0; }
+}
+@keyframes animate-positive {
+  0%{ width: 0; }
+}
+
+.company{
+  font-size: 14px;
+  font-weight: normal;
+  color: #333;
+  border-bottom: 1px solid #3B5998;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.company .time{
+  float: right;
+  font-size: 14px;
+  color: #3B5998;
+}
+.company .time i,.companyName i{
+  margin-right: 5px;
+}
+.companyName{
+  font-size: 12px;
+  font-weight: normal;
+  color: #3B5998;
+  margin-bottom: 10px;
+}
+.desc{
+  font-size: 14px;
+  line-height: 22px;
+  text-align: left;
+  color: #999;
+  margin-bottom: 20px;
+}
+.down{
+  font-size: 16px;
+  width: 163px;
+  height: 38px;
+  background: #3B5998;
+  border: none;
+}
+.down i{
+  font-size: 22px;
+}

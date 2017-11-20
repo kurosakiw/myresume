@@ -1,0 +1,99 @@
+.right {
+  width: 282px;
+  height: 600px;
+  float: right;
+  background: #3B5998;
+  padding: 0 12px;
+}
+
+.right .headName {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: #4c70ba;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.right .headName img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.headInfo {
+  width: 252px;
+  margin: 0 auto;
+  text-align: center;
+  color: #839ccf;
+  margin-top: 15px;
+  border-bottom: 1px solid #839CCF;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.headInfo h1 {
+  color: #839ccf;
+  font-size: 24px;
+}
+
+.headInfo h4 {
+  color: #839ccf;
+  font-size: 16px;
+  padding: 8px 0;
+}
+
+.headInfo h6 {
+  color: #839ccf;
+  font-size: 14px;
+}
+
+.right .des {
+  font-size: 14px;
+  color: #839ccf;
+  line-height: 24px;
+  border-bottom: 1px solid #839CCF;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.right .des p{
+  font-size: 14px;
+}
+.headScoial p {
+  font-size: 14px;
+  color: #839ccf;
+  text-align: center;
+}
+
+ol.soncial {
+  width: 200px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+ol.soncial li {
+  width: 40px;
+  height: 40px;
+  background: url(../../../assets/images/icon.png) no-repeat;
+  float: left;
+  margin-right: 10px;
+  cursor: pointer;
+  opacity: .8;
+}
+ol.soncial li a{
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+ol.soncial li:hover {
+  opacity: 1;
+}
+ol.soncial li.blog{
+  background-position:-57px 0;
+}
+ol.soncial li.wechat{
+  background-position:-113px 0;
+}
+ol.soncial li.qq{
+  background-position:-169px 0;
+}

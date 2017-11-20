@@ -1,0 +1,48 @@
+.banner{
+  width: 715px;
+  height:275px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.banner img{
+  width: 100%;
+  height:275px;
+}
+.about {
+  width: 715px;
+}
+
+
+.about .lt {
+  width: 267px;
+  overflow: hidden;
+}
+
+.about .rt {
+  width: 387px;
+  overflow: hidden;
+}
+
+ul.contact li {
+  font-size: 13px;
+  line-height: 26px;
+  color: #666;
+  overflow: hidden;
+  width: 267px;
+}
+ul.contact li i{
+  width: 15px;
+}
+.span-info {
+  color: #3B5998;
+}
+ul.code li{
+  float: left;
+  width: 92px;
+  margin-right: 30px;
+  text-align: center;
+}
+ul.code li img{
+  width: 92px;
+  height: 93px;
+}

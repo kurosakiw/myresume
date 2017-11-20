@@ -1,0 +1,51 @@
+.about {
+  width: 715px;
+  height: 456px;
+  overflow: hidden;
+}
+
+.about .lt {
+  width: 357px;
+  height: 456px;
+}
+
+.about .rt {
+  width: 348px;
+  height: 456px;
+  overflow: hidden;
+  background: #333333;
+}
+
+ul.aboutMe li {
+  margin: 0;
+  color: #717171;
+  display: block;
+  font-size: 13px;
+  border-bottom: 1px solid #e6e6e6;
+  height: 30px;
+  line-height: 30px;
+}
+
+ul.aboutMe li label {
+  color: #3B5998;
+}
+
+ul.aboutMe li span.value {
+  width: 220px;
+  text-align: left;
+  float: right;
+}
+
+p.aboutSpeak {
+  line-height: 22px;
+  font-size: 14px;
+  color: #999;
+  display: block;
+  margin: 20px 0;
+  text-indent: 15px;
+}
+
+:host ::ng-deep .ant-carousel .slick-slide {
+  height: 456px;
+  overflow: hidden;
+}

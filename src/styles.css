@@ -1,1 +1,193 @@
-/* You can add global styles to this file, and also import other style files */
+/* CSS Document */
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+
+
+/*-----------------*/
+
+p {
+  cursor: default;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  cursor: default;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+img {
+  margin: 0;
+  padding: 0
+}
+
+header {
+  z-index: 9999;
+}
+
+.cc:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.cc {
+  display: inline-block;
+}
+
+
+/* Hides from IE-mac \*/
+
+* html .cc {
+  height: 1%;
+}
+
+.cc {
+  display: block;
+}
+.lt{
+  float: left;
+}
+.rt{
+  float: right;
+}
+
+/*-----------------*/
+
+ul,
+ol,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+/*-----------------*/
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+
+/*-----------------*/
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/*-----------------*/
+
+fieldset,
+img {
+  border: 0;
+}
+
+
+/*-----------------*/
+
+q:before,
+q:after {
+  content: '';
+}
+
+
+/*-----------------*/
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.main {
+  width: 1130px;
+  max-height: 600px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  overflow: hidden;
+}
+
+h1.bloc {
+  margin-top: 10px;
+  font-size: 26px;
+  color: #3B5998;
+  background: url(assets/images/jia.png) no-repeat 0 9px;
+  padding-left: 30px;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e6e6e6
+}
+
+
+.title_content {
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #DDD;
+}
+
+.title_content h2 {
+  font-size: 20px;
+  color: #4c70ba;
+}
+
+.title_content:after {
+  height: 1px;
+  display: block;
+  left: 0;
+  content: " ";
+  position: relative;
+  width: 30px;
+  top: 6px;
+  background: #3B5998;
+}
+
+.open .ant-modal-footer{
+  display: none !important;
+}

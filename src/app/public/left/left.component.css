@@ -1,0 +1,82 @@
+
+.left {
+  float: left;
+  width: 76px;
+  height: 600px;
+}
+
+
+ul.nav li {
+  width: 76px;
+  height: 76px;
+  display: block;
+  margin: 0;
+  cursor: pointer;
+  float: left;
+  text-align: center;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.2);
+  background: #3B5998;
+}
+
+ul.nav li code ,ul.navBtn li code{
+  display: block;
+  width: 42px;
+  height: 42px;
+  border-radius: 50px;
+  background: #fff;
+  margin: 0 auto;
+  margin-top: 14px;
+}
+ul.navBtn li code{
+background: rgba(45, 57, 63, 0.8);
+}
+ul.navBtn li code i{
+  color: #fff !important;
+}
+ul.nav li:hover code{
+  background: #3B5998;
+}
+ul.nav li code i,ul.navBtn li code i{
+  margin-top: 9px;
+  font-size: 22px;
+  color: #3B5998;
+  text-align: center;
+  -webkit-transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+  -moz-transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+  transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+}
+ul.nav li.on ,ul.nav li:hover{
+  background: #fff;
+  -webkit-transition: all .6s ease-in;
+  -moz-transition: all .6s ease-in;
+  -o-transition: all .6s ease-in;
+  transition: all .6s ease-in;
+}
+
+ul.nav li.on code {
+  background: #3B5998;
+}
+ul.nav li.on code i,ul.nav li:hover.on code i,ul.nav li:hover code i{
+  color: #fff;
+}
+ul.navBtn {
+  width: 76px;
+  position: absolute;
+  bottom: 0;
+  overflow: hidden;
+}
+
+ul.navBtn li {
+  width: 76px;
+  height: 76px;
+  display: block;
+  margin: 0;
+  cursor: pointer;
+  float: left;
+  text-align: center;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.2);
+  background: rgba(45, 57, 63, 0.8);
+}
+ul.navBtn li:hover{
+  background: rgba(45, 57, 63, 1);
+}
